@@ -1,0 +1,49 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "com.client.glowclient.sponge.mixin",
+  "refmap": "mixins.glowclient.refmap.json",
+  "minVersion" : "0",
+  "mixins": [
+    "MixinAbstractHorse",
+    "MixinGuiChat",
+    "MixinCPacketUpdateSign",
+    "MixinChunkRenderContainer",
+    "MixinEntityPlayer",
+    "MixinGuiEditSign",
+    "MixinGuiIngame",
+    "MixinItemEndCrystal",
+    "MixinItemStack",
+    "MixinMinecraft",
+    "MixinNetHandlerPlayClient",
+    "MixinPlayerControllerMP",
+    "MixinRenderBoat",
+    "MixinSlotShulkerBox",
+    "MixinVisGraph",
+    "MixinGuiPlayerTabOverlay",
+    "MixinWorld"
+
+    //Future Incompatable
+    //*
+    ,
+    "MixinBlock",
+    "MixinEntity",
+    "MixinEntityBoat",
+    "MixinEntityLlama",
+    "MixinEntityPig",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinKeyBinding",
+    "MixinNetworkManager",
+    "MixinRenderLivingBase",
+    "MixinRenderLivingBase",
+    "MixinTileEntitySignRenderer",
+    "MixinBlockRendererDispatcher"
+    //*/
+    //Unknown
+  ,"MixinRenderGlobal"
+  ,"MixinRenderItem"
+  ,"MixinGuiScreenBook"
+  ,"MixinC00Handshake"
+  ]
+}
